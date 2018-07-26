@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <header>
+    <section>
+      <h1>Banana Chocolate Chip Muffin Recipe</h1>
+
+      <figure>
+        <img src="https://www.recipegirl.com/wp-content/uploads/2007/02/Honey-Sweetened-Banana-Muffins.jpg"
+        alt="Muffin Recipe">
+        <figcaption>
+          <a href="http://www.world-foodhistory.com/2007/04/history-of-muffin.html">The history of muffins</a>
+        </figcaption>
+      </figure>
+    <nav>
+      <ul>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#directions">Directions</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h2 id="description">Description</h2>
+  <p>
+    These muffins - soft at the bottom and crunchy at the top. Melted chocolate chips and warm banana slices inside. Delightful for any time of day.
+  </p>
+
+  <aside>
+    <h2 id="ingredients">Ingredients</h2>
+
+    <ul>
+      <li>1/4 cup room temp butter</li>
+      <li>1/2 cup + 2 tablespoons sugar</li>
+      <li>1 large egg</li>
+      <li>1/2 teaspoon vanilla extract</li>
+      <li>1 cup all purpose flour</li>
+      <li>1/4 teaspoon kosher salt</li>
+      <li>1 teaspoon baking powder</li>
+      <li>2 very ripe bananas, mashed well</li>
+      <li>1 cup chocolate chips</li>
+      <li>Coarse sanding sugar, for the tops</li>
+    </ul>
+  </aside>
+
+    <h2 id="directions">Directions</h2>
+    <ol>
+      <li>
+        Heat the oven to 375°F.
+      </li>
+      <li>
+        Cream the butter and sugar until light. Add the egg, beating well. Stir in the vanilla.
+      </li>
+      <li>
+        Sift together the flour, salt and baking powder, and add to the creamed mixture alternately with the mashed banana: flour, banana, flour, banana, ending on flour. Fold in the chocolate chips.
+      </li>
+      <li>
+        Line a standard muffin tin with 6 liners, and fill equally with the batter. (I ended up with 7 muffins, but this will depend on your banana size).
+      </li>
+      <li>
+        Sprinkle the sanding sugar over the tops of the muffins, and bake at for 30-35 minutes, or until the tops are golden and toothpick comes out clean.
+      </li>
+      <li>
+        Remove muffins from tin, cool, and enjoy!
+      </li>
+    </ol>
+  </section>
+
+  <section id="reviews">
+    <h2>Reviews</h2>
+    <form action="/reviews" method="post">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name">
+
+      <label for="rating">Rating</label>
+      1<input type="radio" name="rating" value="1" checked>
+      2<input type="radio" name="rating" value="2">
+      3<input type="radio" name="rating" value="3">
+      4<input type="radio" name="rating" value="4">
+      5<input type="radio" name="rating" value="5">
+
+      <label for="expertise">Cooking Expertise</label>
+
+      <select id="expertise" name="expertise">
+        <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Experise</option>
+
+        <option value="Sometimes Cook">Sometimes Cook</option>
+
+        <option value="Cook Everyday">Cook Everyday</option>
+
+        <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+
+        <option value="Professional Chef">Professional Chef</option>
+      </select>
+
+      <label>Review
+        <textarea name="review" cols="30" rows="10"></textarea>
+      </label>
+
+      <input type="submit" value="Submit Review">
+    </form>
+  </section>
+
+  <footer>
+    <p>Original Recipe from <a href="http://iamafoodblog.com/basic-banana-chocolate-chip-muffin-recipe/">Iamafoodblog.com</a></p>
+  </footer>
+</body>
+</html>
