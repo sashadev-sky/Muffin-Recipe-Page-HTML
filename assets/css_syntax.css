@@ -7,6 +7,7 @@ h1 {
 
 img {
     padding-top: 10px;
+    padding-left: 3px;
 }
 
 h2 {
@@ -23,13 +24,20 @@ header > img {
 
 ul {
   list-style: square inside;
+  padding-left: 3px;
 }
 
 nav ul {
     color: inherit;
     list-style: square inside;
+    padding-left: 3px;
 }
 
 body {
     background-color: floralwhite;
+}
+
+.user_review h4 {
+  font-size: 18px;
+  font-weight: bold;
 }
