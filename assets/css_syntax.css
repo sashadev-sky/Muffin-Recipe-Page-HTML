@@ -41,3 +41,40 @@ body {
   font-size: 18px;
   font-weight: bold;
 }
+
+input[type="radio"], select, input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+}
+
+input:last-child {
+    background: whitesmoke;
+}
+
+input:last-child:hover {
+    -webkit-filter: brightness(92%);
+}
+
+ol li:nth-of-type(2n) {
+  background-color: whitesmoke;
+}
+
+h2 + .user_review {
+  border-top: 1px solid black;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(./stars.png);
+    vertical-align: bottom;
+}
+
+input[type="radio"]:hover {
+  background-position: 30px 60px;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
