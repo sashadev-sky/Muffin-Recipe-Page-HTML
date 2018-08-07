@@ -1,3 +1,3 @@
 # Recipe Page
 
-- Page uses Javascript for the functionality to submit reviews and CSS for styling
+- Page structured with HTML, styled with CSS, and uses Javascript to allow users to submit reviews
