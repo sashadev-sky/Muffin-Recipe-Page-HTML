@@ -19,7 +19,7 @@
 </head>
 <body>
   <header>
-    <section>
+    <!-- <section> -->
       <h1>Banana Chocolate Chip Muffin Recipe</h1>
     <nav>
       <ul>
@@ -28,21 +28,16 @@
         <li><a href="#directions">Directions</a></li>
       </ul>
     </nav>
-    <figure>
+    <!-- <figure>
       <img src="https://www.recipegirl.com/wp-content/uploads/2007/02/Honey-Sweetened-Banana-Muffins.jpg"
       alt="Muffin Recipe">
-    </figure>
+    </figure> -->
   </header>
-
-  <h2 id="description">Description</h2>
-  <p>
-    These muffins - soft at the bottom and crunchy at the top. Melted chocolate chips and warm banana slices inside. Delightful for any time of day.
-  </p>
 
   <aside>
     <h2 id="ingredients">Ingredients</h2>
 
-    <ul>
+    <ul class="ingredients-list">
       <li>1/4 cup room temp butter</li>
       <li>1/2 cup + 2 tablespoons sugar</li>
       <li>1 large egg</li>
@@ -55,6 +50,18 @@
       <li>Coarse sanding sugar, for the tops</li>
     </ul>
   </aside>
+
+  <section>
+
+    <figure>
+      <img src="https://www.recipegirl.com/wp-content/uploads/2007/02/Honey-Sweetened-Banana-Muffins.jpg"
+      alt="Muffin Recipe">
+    </figure>
+
+    <h2 id="description">Description</h2>
+    <p>
+      These muffins - soft at the bottom and crunchy at the top. Melted chocolate chips and warm banana slices inside. Delightful for any time of day.
+    </p>
 
     <h2 id="directions">Directions</h2>
     <ol>
@@ -77,8 +84,6 @@
         Remove muffins from tin, cool, and enjoy!
       </li>
     </ol>
-  </section>
-
   <section id="reviews">
     <h2>Reviews</h2>
     <!-- "review-form" is for the js file -->
@@ -93,7 +98,7 @@
       4<input type="radio" name="rating" value="4">
       5<input type="radio" name="rating" value="5">
 
-      <label for="expertise">Cooking Expertise</label>
+      <!-- <label for="expertise">Cooking Expertise</label> -->
 
       <select id="expertise" name="expertise">
         <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Experise</option>
@@ -107,12 +112,13 @@
         <option value="Professional Chef">Professional Chef</option>
       </select>
 
-      <label>Review
+      <label>
         <textarea id="review" name="review" cols="30" rows="10"></textarea>
       </label>
 
       <input type="submit" value="Submit Review">
     </form>
+  </section>
   </section>
 
   <footer>
