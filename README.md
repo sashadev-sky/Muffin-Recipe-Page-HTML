@@ -5,7 +5,7 @@
 ### Previewing
 - Click here to preview: [Github HTML Previewer](
  http://htmlpreview.github.io/?https://github.com/sashadev-sky/Recipe-Page/blob/master/forms_exercise.html)
- 
+
 
 
 
@@ -15,3 +15,4 @@
 - Navigation bar styling
 - Footer styling
 - Centering page
+- Custom fluid grid
