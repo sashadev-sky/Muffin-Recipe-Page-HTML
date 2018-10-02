@@ -16,4 +16,5 @@
 - Flexbox
 - Custom fluid grid
 - Custom media query to create a responsive design
-  - For screens <= 700px, display will collapse vertically
+  - For screens <= 650px, display will collapse vertically
+  - Added a viewport meta tag
