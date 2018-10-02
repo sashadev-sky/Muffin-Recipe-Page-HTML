@@ -14,14 +14,54 @@
   padding-right: 0;
 }
 
-@media all and (max-width: 700px) {
-  [class*='col-'] {
-    width: 100%;
+@media all and (max-width: 650px) {
+
+  nav {
+    border-top: none;
+    border-bottom: none;
+  }
+  nav ul {
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
   }
 
-  nav ul {
-    flex: auto;
+  .ingredients-list li {
+    margin: 5px;
+  }
+
+
+  [class*='col-'] {
+    width: 100%;
     text-align: center;
   }
 
+  img {
+    width: 80%;
+  }
+
+  input#name {
+    width: min-content;
+    text-align: left;
+  }
+
+  select#expertise {
+    width: min-content;
+    display: block;
+    margin: 10px auto;
+    margin-top: 5px;
+  }
+
+  input[type="radio"] {
+    vertical-align: middle;
+  }
+
+  textarea {
+    margin-top: 10px;
+    width: auto;
+  }
+
+  input[type="submit"] {
+    margin: 10px 0px 20px 0px;
+  }
 }
