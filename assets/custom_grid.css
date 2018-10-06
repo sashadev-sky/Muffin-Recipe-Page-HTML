@@ -16,14 +16,8 @@
 
 @media all and (max-width: 650px) {
 
-  nav {
-    border-top: none;
-    border-bottom: none;
-  }
   nav ul {
     display: flex;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
   }
 
   .ingredients-list li {
