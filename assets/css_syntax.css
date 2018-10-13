@@ -1,18 +1,17 @@
 body {
+  margin: 0 auto; /* classic centering technique */
+  width: 100%;
   font-family: arial, sans-serif;
-  background-color: floralwhite;
+  font-size: 16px;
+  font-weight: 400;
+  background: floralwhite;
 }
 
 h1 {
-    font-size: 38px;
-    font-family: cursive;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-header:first-child {
-  width: 100%;
+  font-size: 38px;
+  font-family: cursive;
+  margin: 10px 0px;
+  text-align: center;
 }
 
 h2 {
@@ -27,44 +26,6 @@ ol {
   list-style: upper-roman inside;
 }
 
-.user_review h4 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-input[type="radio"], select, input[type="submit"] {
-  cursor: pointer;
-  outline: none;
-  padding: 5px;
-  margin-right: 5px;
-  margin-bottom: 15px;
-  margin-top: 10px;
-}
-
-input[type="submit"] {
-  margin: 20px 0px;
-}
-
-input:last-child {
-    background: whitesmoke;
-}
-
-input:last-child:hover {
-    -webkit-filter: brightness(92%);
-}
-
-input#name {
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-select#expertise {
-  display: inline;
-  min-width: fit-content;
-  margin-bottom: 20px;
-  margin-top: 0px;
-}
-
 ol li:nth-of-type(2n) {
   background-color: whitesmoke;
   margin: 10px 0;
@@ -75,16 +36,52 @@ ol li:nth-of-type(2n) {
   padding-top: 10px;
 }
 
-h2 + .user_review {
+.user_review h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user_review:first-of-type {
   border-top: 1px solid black;
 }
 
+label {
+  display: block;
+  margin-top: 3px;
+}
+
+label:first-of-type {
+  margin-bottom: 2px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 7px;
+}
+
+input[type="radio"], select, input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+  margin: 10px 5px 15px 0px;
+}
+
+input:last-child {
+  background: whitesmoke;
+  margin: 17px 0px 20px 0px;
+}
+
+input:last-child:hover {
+  -webkit-filter: brightness(92%);
+}
+
 input[type="radio"] {
-    -webkit-appearance: none;
-    width: 27px;
-    height: 27px;
-    background-image: url(./stars.png);
-    vertical-align: middle;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  -webkit-appearance: none;
+  width: 27px;
+  height: 27px;
+  background-image: url(./stars.png);
+  vertical-align: middle;
 }
 
 input[type="radio"]:hover {
@@ -93,6 +90,25 @@ input[type="radio"]:hover {
 
 input[type="radio"]:checked {
   background-position: 30px 30px;
+}
+
+select {
+  margin: 10px 0px;
+}
+
+input#name {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+select#expertise {
+  display: inline;
+  min-width: fit-content;
+}
+
+textarea {
+  width: 340px;
+  margin-top: 10px;
 }
 
 nav {
@@ -120,11 +136,6 @@ nav ul li a:hover {
   color: white;
 }
 
-body {
-  margin: 0 auto; /* classic centering technique */
-  width: 100%;
-}
-
 .main-content {
   width: 80%;
   margin: 0 auto;
@@ -147,17 +158,4 @@ footer {
   margin-bottom: 10px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-}
-
-select {
-  margin: 10px 0;
-  width: 180px;
-}
-
-textarea {
-  width: 375px;
-}
-
-label {
-  display: block;
 }
