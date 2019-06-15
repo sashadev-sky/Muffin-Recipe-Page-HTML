@@ -18,3 +18,4 @@
 - Custom media query to create a responsive design
   - For screens <= 650px, display will collapse vertically
   - Added a viewport meta tag
+- Introduction to traditional CSS Image Sprites - using the `background-position` property to reference multiple distinct parts of one image file (PNG)
